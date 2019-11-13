@@ -16,3 +16,4 @@ Super + t -> /home/tomek/workspace/my/tl_switcher/tlswitcher.py terminator
 ### Remap capslock to super
 
 `setxkbmap -option caps:super`
+`dconf write "/org/gnome/desktop/input-sources/xkb-options" "['caps:super']"`
